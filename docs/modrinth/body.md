@@ -15,7 +15,7 @@
 | Game versions | 26.2 |
 | Dependencies | Create Fly (required), Fabric API (required) |
 | Icon | `icon.png` in this folder: the emerald on the cubealgos navy badge (`just icon` regenerates it) |
-| Links | Source `https://github.com/cubealgos/create_villager_customers` · Issues `https://github.com/cubealgos/create_villager_customers/issues` · Origin `https://git.cubealgos.de/cubealgos/create_villager_customers` |
+| Links | Source `https://github.com/cubealgos-mods/create_villager_customers` · Issues `https://github.com/cubealgos-mods/create_villager_customers/issues` |
 
 ## Version settings
 
@@ -89,7 +89,7 @@ with; the mod declares exactly that version).
 
 ### Support
 
-Through the issue tracker only (https://github.com/cubealgos/create_villager_customers/issues),
-as time allows. Source on GitHub, mirrored from the cubealgos Forgejo. Include your Minecraft,
+Through the issue tracker only (https://github.com/cubealgos-mods/create_villager_customers/issues),
+as time allows. Source on GitHub. Include your Minecraft,
 Fabric and Create Fly versions, the mod version from the jar name, and the steps that show the
 problem. MIT licensed.
