@@ -9,8 +9,8 @@
   ],
   "contact": {
     "homepage": "https://modrinth.com/mod/villager-customers",
-    "sources": "https://git.cubealgos.de/cubealgos/create_villager_customers",
-    "issues": "https://github.com/cubealgos/create_villager_customers/issues"
+    "sources": "https://github.com/cubealgos-mods/create_villager_customers",
+    "issues": "https://github.com/cubealgos-mods/create_villager_customers/issues"
   },
   "license": "MIT",
   "environment": "*",

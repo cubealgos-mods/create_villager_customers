@@ -18,15 +18,17 @@ it, buying or selling straight against the shop's network stock and payment box.
 | touch the shop discovery or POI | `docs/spec/domains/shop.md` |
 | add or change a mixin | `docs/spec/04-architecture.md` `ARCH-DEC-002`, the mixin config |
 | add a dependency | `docs/spec/decisions/DEC-003-licence.md` (MIT) and heimathafen's dependency policy |
-| commit | scope `villager_customers`, the ticket key (`VC-N`) in the subject |
+| commit | scope `villager_customers`, the GitHub issue number in the subject, `(#N)`; old gitkontor keys (`VC-N`) stay valid in history |
 
 ## Working here
 
 ```
-kontor claim VC-N
-kontor branch new VC-N <slug>
+gh issue view N
+git switch -c <type>/N-<slug> origin/development
 just check
 ```
+
+Work is tracked in GitHub issues: one issue per change, one branch `<type>/N-<slug>` off `development`, one pull request per issue, plain merge. The `gitkontor/data` branch is the archive of the former ticket system (keys `VC-N`); it stays untouched and is no longer written to.
 
 `just --list` shows the task surface; `just spec-sync` refreshes `docs/spec/` from the vault; `just map` regenerates the map.
 
